@@ -1,3 +1,5 @@
+Tested with Openbox 3.6.1
+
 This is a python3 script that make a menu for Openbox from the desktop files.
 This program search for the desktop files in the /usr/share/applications and
 in the HOME/.local/share/applications directories.
