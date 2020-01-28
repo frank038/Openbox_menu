@@ -9,4 +9,5 @@ Copy the menu.xml file in $HOME/.config/openbox (eventually replace the old one)
 Reload the configuration: openbox --reconfigure
 
 The screenshot is how the menu appears.
+
 ![My image](https://github.com/frank038/Openbox_menu/blob/master/screenshot.png)
