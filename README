@@ -10,5 +10,5 @@ Copy the menu.xml file in $HOME/.config/openbox (eventually replace the old one)
 Reload the configuration: openbox --reconfigure
 
 The screenshot is how the menu appears.
-<img src="./img1.jpg">
+
 ![Image](https://github.com/frank038/Openbox_menu/blob/master/img1.jpg)
