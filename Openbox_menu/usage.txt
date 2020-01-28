@@ -1,0 +1,3 @@
+How to use: python3 make_ob_menu.py > menu.xml
+Copy the menu.xml file in $HOME/.config/openbox 
+Reload the configuration: openbox --reconfigure
