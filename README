@@ -1,5 +1,7 @@
 Tested with Openbox 3.6.1
 
+Require Python3-xdg.
+
 This is a python3 script that generates a menu for Openbox from the desktop files.
 This program search for the desktop files in the /usr/share/applications and
 in the HOME/.local/share/applications directories.
