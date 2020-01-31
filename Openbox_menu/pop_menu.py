@@ -10,7 +10,7 @@ import locale
 
 # the dirs of the application files
 app_dirs_user = [os.path.expanduser("~")+"/.local/share/applications"]
-app_dirs_system = ["/usr/share/applications"]
+app_dirs_system = ["/usr/share/applications", "/usr/local/share/applications"]
 
 #######################
 # main categories
