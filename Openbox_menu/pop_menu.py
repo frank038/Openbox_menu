@@ -95,6 +95,9 @@ class catDesktop():
 class getMenu():
     
     def __init__(self):
+    
+        # arguments in the exec fiels
+        self.execArgs = [" %f", " %F", " %u", " %U", " %d", " %D", " %n", " %N", " %k", " %v"]
         
         # the default
         self.locale_lang = "en"
@@ -184,6 +187,9 @@ class getMenu():
                 pexec = DesktopEntry.DesktopEntry(item.path).getExec()
                 if pexec[0:5] == "$HOME":
                     pexec = "~"+pexec[5:]
+                # check for arguments
+                if pexec[-3:] in self.execArgs:
+                    pexec = pexec[:-3]
                 icon = DesktopEntry.DesktopEntry(item.path).getIcon()
                 list_one.append([item.name, item.path, idx, item.name.lower(), pexec, icon])
             else:
@@ -198,6 +204,9 @@ class getMenu():
                     pexec = DesktopEntry.DesktopEntry(item.path).getExec()
                     if pexec[0:5] == "$HOME":
                         pexec = "~"+pexec[5:]
+                    # check for arguments
+                    if pexec[-3:] in self.execArgs:
+                        pexec = pexec[:-3]
                     icon = DesktopEntry.DesktopEntry(item.path).getIcon()
                     list_one.append([item.name, item.path, idx, item.name.lower(), pexec, icon])
                 else:
@@ -207,6 +216,9 @@ class getMenu():
                     pexec = DesktopEntry.DesktopEntry(item.path).getExec()
                     if pexec[0:5] == "$HOME":
                         pexec = "~"+pexec[5:]
+                    # check for arguments
+                    if pexec[-3:] in self.execArgs:
+                        pexec = pexec[:-3]
                     icon = DesktopEntry.DesktopEntry(item.path).getIcon()
                     list_two.append([item.name, item.path, idx, item.name.lower(), pexec, icon])
             
