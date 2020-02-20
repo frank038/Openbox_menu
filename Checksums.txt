@@ -1,3 +1,1 @@
-md5: aade100347cf52b6e92b119fd61070ce  Openbox_menu.tar
-sha256: b6bcd3f7a4e7e898aa6a1fe84bccd4ba042f17354500bf4cca3bcae7cc40ecb3  Openbox_menu.tar
-
+md5sum: 60a8053610dda3af7fbe8afa7f81a852  Openbox_menu_20200220.tar
